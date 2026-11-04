@@ -1,0 +1,9 @@
+tensorflow==2.17.0
+numpy
+librosa
+matplotlib
+scikit-learn
+soundfile
+sounddevice
+tqdm
+seaborn

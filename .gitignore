@@ -1,0 +1,8 @@
+data/
+*.wav
+*.npy
+*.h5
+*.pt
+*.zip
+__pycache__/
+.DS_Store
