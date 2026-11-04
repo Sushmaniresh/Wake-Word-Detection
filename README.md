@@ -2,7 +2,7 @@
 
 Real-time, offline wake-word detection: listen to the microphone, cut 1-second windows, turn each into a spectrogram, and classify it as "wake word" or "not wake word" with a very small neural network.
 
-Final project for **EEE 607: Speech Recognition, Arizona State University (Fall 2025)**.
+Individual final project for **EEE 607: Speech Recognition, Arizona State University (Fall 2025)**.
 
 ![Pipeline](docs/blockdiagram.png)
 
@@ -16,7 +16,7 @@ Final project for **EEE 607: Speech Recognition, Arizona State University (Fall 
 Both run fully offline. Live detection slides a 1-second window over microphone audio and fires when the model's confidence passes a threshold.
 
 ## Results
-Three architectures were compared: a CNN, a RepCNN and a CRNN (convolution + GRU).
+I compared three architectures: a CNN, a RepCNN and a CRNN (convolution + GRU).
 
 ![Validation accuracy](docs/acc.png)
 
